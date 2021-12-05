@@ -15,11 +15,11 @@ C:/Users/ROG/Desktop/JBC/JBC_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60182
+58817
 Successfully changed project path to: C:/Users/ROG/Desktop/JBC/JBC_Project
 C:/Users/ROG/Desktop/JBC/JBC_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path F:/Unity/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,122 +35,114 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002049 seconds.
+Registered in 0.001563 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.13 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.739 seconds
+- Completed reload, in  2.823 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006692 seconds.
+Registered in 0.003486 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.566 seconds
+- Completed reload, in  0.995 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
+System memory in use before: 85.3 MB.
 System memory in use after: 85.2 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 1.990600 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.653900 ms  DeleteObjects: 0.115300 ms)
+Total: 1.987600 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.647800 ms  DeleteObjects: 0.111500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f12034edb04d3e605ed73df291a881e') in 0.196630 seconds
-  Import took 0.199813 seconds .
+  path: Assets/002.Image/StageBackSky.png
+  artifactKey: Guid(0913d736e403d724481796e611f05943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/StageBackSky.png using Guid(0913d736e403d724481796e611f05943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f449d5ef33e0c96774d1485c492a47a') in 0.192053 seconds
+  Import took 0.195655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.657552 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c574d26d24beb3a5fcde1e13c4c8f91c') in 0.031681 seconds
-  Import took 0.035896 seconds .
+  Time since last request: 1.175632 seconds.
+  path: Assets/004. Material/Stage
+  artifactKey: Guid(cc6c993e84625bc4ba37c1781ae2a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/004. Material/Stage using Guid(cc6c993e84625bc4ba37c1781ae2a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b469c489bc170430e1ccb95600406d39') in 0.011995 seconds
+  Import took 0.016325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.709676 seconds.
-  path: Assets/004. Material
-  artifactKey: Guid(610575eca118810438ad00b149f0808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/004. Material using Guid(610575eca118810438ad00b149f0808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880841e14aa2e60ac68d28e45513e367') in 0.005213 seconds
-  Import took 0.011203 seconds .
+  Time since last request: 25.678979 seconds.
+  path: Assets/002.Image/StageBackSky.png
+  artifactKey: Guid(0913d736e403d724481796e611f05943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/StageBackSky.png using Guid(0913d736e403d724481796e611f05943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5199d38c1917d15e5b1a14643b534889') in 0.022463 seconds
+  Import took 0.027117 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.916809 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4909fd6b840d314ab6cc5ce32a8685ed') in 0.018524 seconds
-  Import took 0.022113 seconds .
+  Time since last request: 409.039652 seconds.
+  path: Assets/001.Script/Card/ItemSO.cs
+  artifactKey: Guid(0e8b68b58446b4c43ac47d5e816e9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/001.Script/Card/ItemSO.cs using Guid(0e8b68b58446b4c43ac47d5e816e9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded53d66d2d2b1ab7454990d220124a8') in 0.025276 seconds
+  Import took 0.029014 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.846790 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4953a292fa8c8843cf708522d8451b8') in 0.038332 seconds
-  Import took 0.041566 seconds .
+  Time since last request: 0.002627 seconds.
+  path: Assets/001.Script/Card/ItemSO.cs
+  artifactKey: Guid(0e8b68b58446b4c43ac47d5e816e9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/001.Script/Card/ItemSO.cs using Guid(0e8b68b58446b4c43ac47d5e816e9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded53d66d2d2b1ab7454990d220124a8') in 0.004513 seconds
+  Import took 0.007494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.505331 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1167f05c6122ae36b7a0e853c62e74') in 0.033355 seconds
-  Import took 0.036594 seconds .
+  Time since last request: 15608.380468 seconds.
+  path: Assets/002.Image/BackGround.png
+  artifactKey: Guid(e3777258d43bb364ea4c52ad3ef69455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/BackGround.png using Guid(e3777258d43bb364ea4c52ad3ef69455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f639f56e579711c5254a08236707131') in 0.118985 seconds
+  Import took 0.155024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2251.774340 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01639e3304dd68872224257e075eb180') in 0.055651 seconds
-  Import took 0.059309 seconds .
+  Time since last request: 55.435575 seconds.
+  path: Assets/002.Image/BackGround.png
+  artifactKey: Guid(e3777258d43bb364ea4c52ad3ef69455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/BackGround.png using Guid(e3777258d43bb364ea4c52ad3ef69455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6077f671dbe37741d582acdcf4499a') in 0.066006 seconds
+  Import took 0.073563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 120.689732 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c5362a808cd1a8a01c6eb7e01f2020') in 0.021681 seconds
-  Import took 0.025773 seconds .
+  Time since last request: 4957.682786 seconds.
+  path: Assets/002.Image/StageSky.png
+  artifactKey: Guid(59678ec3cb726064f809ef56a19ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/StageSky.png using Guid(59678ec3cb726064f809ef56a19ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f7e265b6fd1edf1c805469d7ecbca6') in 0.106760 seconds
+  Import took 0.130403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 243.024645 seconds.
-  path: Assets/002.Image/StageBackRiver.png
-  artifactKey: Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/002.Image/StageBackRiver.png using Guid(6f13ae0e8dc4d5e4f84080bff028c846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db3b4385df9262f0ac9ec93817c27a2') in 0.034581 seconds
-  Import took 0.038554 seconds .
+  Time since last request: 4.789619 seconds.
+  path: Assets/002.Image/Untitled-1.psd
+  artifactKey: Guid(3d1418d35c761cb4992b44ecb5fd6cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/Untitled-1.psd using Guid(3d1418d35c761cb4992b44ecb5fd6cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da519b8e4cca18df30154107e62084f9') in 0.052256 seconds
+  Import took 0.056123 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 367.940473 seconds.
-  path: Assets/001.Script/Card/ItemSO.asset
-  artifactKey: Guid(b689e4f09a2b3cc4cb82cb7aa7f6f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/001.Script/Card/ItemSO.asset using Guid(b689e4f09a2b3cc4cb82cb7aa7f6f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30a69df83a2b002cc256b174bbe1f0') in 0.025475 seconds
-  Import took 0.029263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000961 seconds.
-  path: Assets/001.Script/Card/ItemSO.asset
-  artifactKey: Guid(b689e4f09a2b3cc4cb82cb7aa7f6f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/001.Script/Card/ItemSO.asset using Guid(b689e4f09a2b3cc4cb82cb7aa7f6f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30a69df83a2b002cc256b174bbe1f0') in 0.005180 seconds
-  Import took 0.007798 seconds .
+  Time since last request: 68.362343 seconds.
+  path: Assets/002.Image/StageSky.png
+  artifactKey: Guid(59678ec3cb726064f809ef56a19ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/002.Image/StageSky.png using Guid(59678ec3cb726064f809ef56a19ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdde1f79d75237b741de2cd22312a4a') in 0.032589 seconds
+  Import took 0.079857 seconds .
 
